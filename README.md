@@ -13,8 +13,6 @@
 
 ![usage gif](https://github.com/raulfdm/vscode-quick-spec/blob/master/media/extension-usage.gif?raw=true)
 
----
-
 ## Why
 
 Spec/Test files are a common task between developers. This extension is just about quick create those files based on the the opened one and save you of typing or copy&paste the name during the creation. :)
