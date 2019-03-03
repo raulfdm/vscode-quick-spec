@@ -2,7 +2,7 @@
   "name": "vscode-create-spec",
   "displayName": "vscode-create-spec",
   "description": "Easy create a spec file for the opened filed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "raulmelo",
   "engines": {
     "vscode": "^1.31.0"
