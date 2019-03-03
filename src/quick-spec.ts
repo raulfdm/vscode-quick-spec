@@ -6,7 +6,7 @@ import { FileData } from './models/FileData';
 
 const writeFilePromise = promisify(fs.writeFile);
 
-export const createSpec = async () => {
+export const create = async () => {
   const currentFileOpened = vscode.window.activeTextEditor;
 
   if (!currentFileOpened) {

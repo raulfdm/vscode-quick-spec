@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { createSpec } from './create-spec';
+import { create } from './quick-spec';
 
 export function activate(context: vscode.ExtensionContext) {
   console.log(
@@ -7,8 +7,8 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   const disposable = vscode.commands.registerCommand(
-    'extension.createSpec',
-    createSpec
+    'extension.quickSpec.create',
+    create
   );
 
   context.subscriptions.push(disposable);
