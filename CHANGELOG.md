@@ -4,6 +4,18 @@ All notable changes to the "Quick Spec" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.5] - 2019-03-03
+
+### Added
+
+- Set `job` to automatically deploy when it's `master`
+
+### Changed
+
+- [package.json] Add License Field
+
+---
+
 ## [0.0.4] - 2019-03-03
 
 ### Added
