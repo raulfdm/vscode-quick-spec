@@ -27,17 +27,21 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "precompile": "rimraf out",
     "compile": "tsc -p ./ --skipLibCheck",
     "watch": "tsc -watch -p ./",
+    "predeploy": "vsce package",
+    "deploy": "vsce publish",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "yarn run compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "typescript": "^3.3.1",
-    "vscode": "^1.1.28",
-    "tslint": "^5.12.1",
+    "@types/mocha": "^2.2.42",
     "@types/node": "^10.12.21",
-    "@types/mocha": "^2.2.42"
+    "rimraf": "^2.6.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "vsce": "^1.57.1",
+    "vscode": "^1.1.28"
   }
 }
