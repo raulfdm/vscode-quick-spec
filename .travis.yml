@@ -6,7 +6,19 @@ node_js:
 cache:
   directories:
     - 'node_modules'
+
 install:
   - yarn install
-script:
-  - yarn build
+
+stages:
+  - build
+  - name: deploy
+    if: branch = master
+
+jobs:
+  include:
+    - stage: build
+      script: yarn build
+    - stage: deploy
+      script:
+        - yarn vsce -p $VSCODE_SECRET
