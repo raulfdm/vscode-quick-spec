@@ -4,6 +4,19 @@ All notable changes to the "Quick Spec" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2019-03-03
+
+### Added
+
+- Add MIT License;
+- Animated GIF "how to use";
+
+### Changed
+
+- [README] Write down all extension information
+
+---
+
 ## [0.0.3] - 2019-03-03
 
 ### Added
