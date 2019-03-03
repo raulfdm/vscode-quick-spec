@@ -21,4 +21,4 @@ jobs:
       script: yarn build
     - stage: deploy
       script:
-        - yarn vsce -p $VSCODE_SECRET
+        - yarn vsce publish -p $VSCODE_SECRET
