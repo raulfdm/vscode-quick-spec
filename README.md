@@ -1,3 +1,3 @@
-# vscode-create-spec
+# Quick Spec
 
-> Simple and tiny extension to create a spec for the opened file
+> Simple extension to create a spec file for the current opened one
