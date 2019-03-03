@@ -15,7 +15,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.crevscateSpec"
+    "onCommand:extension.createSpec"
   ],
   "main": "./out/extension.js",
   "contributes": {
