@@ -4,6 +4,18 @@ All notable changes to the "Quick Spec" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.6] - 2019-03-04
+
+### Fixed
+
+- [Bug] Command not found. ([Issue #14](https://github.com/raulfdm/vscode-quick-spec/issues/14))
+
+### Changed
+
+- [package.json] Add License Field
+
+---
+
 ## [0.0.5] - 2019-03-03
 
 ### Added
