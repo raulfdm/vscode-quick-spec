@@ -1,18 +1,18 @@
 import * as vscode from 'vscode';
-import { create } from './quick-spec';
+import { Commands } from './models';
+import { createSpec } from './commands';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log(
-    'Congratulations, your extension "vscode-create-spec" is now active!'
-  );
+  console.log('Extension "vscode-quick-spec" is now active!');
 
   const disposable = vscode.commands.registerCommand(
-    'extension.create',
-    create
+    Commands.createSpec,
+    createSpec
   );
 
   context.subscriptions.push(disposable);
 }
 
-// this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() {
+  console.log('Extension "vscode-quick-spec" is now deactive!');
+}
