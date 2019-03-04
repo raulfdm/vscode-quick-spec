@@ -2,7 +2,7 @@
   "name": "vscode-quick-spec",
   "displayName": "Quick Spec",
   "description": "Easy create a spec file for the opened filed",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "raulmelo",
   "license": "MIT",
   "engines": {
@@ -16,13 +16,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.quickSpec.create"
+    "onCommand:extension.create"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.quickSpec.create",
+        "command": "extension.create",
         "title": "Quick Spec: create"
       }
     ]
