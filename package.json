@@ -16,14 +16,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.create"
+    "onCommand:quickSpec.createSpec"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.create",
-        "title": "Quick Spec: create"
+        "command": "quickSpec.createSpec",
+        "title": "Quick Spec: Create Spec File..."
       }
     ]
   },
