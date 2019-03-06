@@ -25,7 +25,25 @@
         "command": "quickSpec.createSpec",
         "title": "Quick Spec: Create Spec File..."
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Quick Spec configuration",
+      "properties": {
+        "quickSpec.defaultExtension": {
+          "type": "string",
+          "default": ".test",
+          "description": "Specifies the default test extension should be used"
+        },
+        "quickSpec.extensionPerLanguage": {
+          "type": "object",
+          "default": {},
+          "description": "Specifies test extension for a specific languages",
+          "examples": [
+            "{ \".rb\": \".spec\""
+          ]
+        }
+      }
+    }
   },
   "scripts": {
     "prebuild": "rimraf out",
