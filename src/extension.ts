@@ -7,7 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   const disposable = vscode.commands.registerCommand(
-    'extension.create',
+    'quickSpec.create',
     create
   );
 

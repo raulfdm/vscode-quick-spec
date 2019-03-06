@@ -16,13 +16,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.create"
+    "onCommand:quickSpec.create"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.create",
+        "command": "quickSpec.create",
         "title": "Quick Spec: create"
       }
     ]
