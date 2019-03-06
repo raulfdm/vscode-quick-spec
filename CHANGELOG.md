@@ -4,6 +4,14 @@ All notable changes to the "Quick Spec" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.9] - 2019-03-06
+
+### Fixed
+
+- Remove deploy via CI.
+
+---
+
 ## [0.0.8] - 2019-03-06
 
 ### Fixed
