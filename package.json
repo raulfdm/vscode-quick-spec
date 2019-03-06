@@ -2,7 +2,7 @@
   "name": "vscode-quick-spec",
   "displayName": "Quick Spec",
   "description": "Easy create a spec file for the opened filed",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "publisher": "raulmelo",
   "license": "MIT",
   "engines": {
@@ -49,8 +49,9 @@
     "prebuild": "rimraf out",
     "build": "tsc -p ./ --skipLibCheck",
     "watch": "tsc -watch -p ./",
-    "predeploy": "vsce package",
-    "deploy": "vsce publish",
+    "prepublish": "vsce package",
+    "publish": "vsce publish",
+    "deploy": "npm run build && npm run publish",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "yarn run build && node ./node_modules/vscode/bin/test"
   },

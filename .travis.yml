@@ -12,13 +12,8 @@ install:
 
 stages:
   - build
-  - name: deploy
-    if: branch = master
 
 jobs:
   include:
     - stage: build
       script: yarn build
-    - stage: deploy
-      script:
-        - yarn vsce publish -p $VSCODE_SECRET
