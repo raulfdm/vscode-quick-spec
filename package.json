@@ -2,7 +2,7 @@
   "name": "vscode-quick-spec",
   "displayName": "Quick Spec",
   "description": "Easy create a spec file for the opened filed",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "publisher": "raulmelo",
   "license": "MIT",
   "engines": {

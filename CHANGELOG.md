@@ -4,6 +4,14 @@ All notable changes to the "Quick Spec" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2019-03-06
+
+### Added
+
+- Extension configuration `quickSpec.extensionPerLanguage` and `quickSpec.defaultExtension` option. [To know more](https://github.com/raulfdm/vscode-quick-spec#customization)
+
+---
+
 ## [0.0.9] - 2019-03-06
 
 ### Fixed
