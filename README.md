@@ -37,9 +37,12 @@ In a nutshell, it'll copy the opened file name and create a new one with the sam
 
 ## Customization
 
-Actually isn't possible to define if you want `.test` or `.spec` and most important for each language (e.g. js, ts, rb).
+To customize how the files are generate, go to User Settings (`Code → Preferences → Settings`) and search for `Quick Spec`.
 
-[This feature is coming soon.](https://github.com/raulfdm/vscode-quick-spec/issues/1)
+| name                             | Default | Description                                                                                                                                               | example                                                |
+| -------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| `quickSpec.defaultExtension`     | `.test` | Spec extension which will be applied for `all` kind of file extension                                                                                     | `"quickSpec.defaultExtension": ".spec"`                |
+| `quickSpec.extensionPerLanguage` | `{}`    | Object which accepts file extension (key) and the test extension (value). This is for when you want to create a specific test _only_ for one kind of file | `"quickSpec.extensionPerLanguage": { ".go": ".spec" }` |
 
 ## License
 

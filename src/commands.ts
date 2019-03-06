@@ -2,11 +2,11 @@ import * as vscode from 'vscode';
 import * as fs from 'fs';
 import { promisify } from 'util';
 
-import { FileData } from './models/FileData';
+import { FileData } from './models';
 
 const writeFilePromise = promisify(fs.writeFile);
 
-export const create = async () => {
+export const createSpec = async () => {
   const currentFileOpened = vscode.window.activeTextEditor;
 
   if (!currentFileOpened) {
