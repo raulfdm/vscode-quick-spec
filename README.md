@@ -9,6 +9,19 @@
     <img src="https://vsmarketplacebadge.apphb.com/version/raulmelo.vscode-quick-spec.svg"
          alt="extension version">
   </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=raulmelo.vscode-quick-spec">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/raulmelo.vscode-quick-spec.svg"
+         alt="extension version">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=raulmelo.vscode-quick-spec">
+    <img src="https://img.shields.io/visual-studio-marketplace/stars/raulmelo.vscode-quick-spec.svg"
+         alt="Extension rating">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=raulmelo.vscode-quick-spec">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/raulmelo.vscode-quick-spec.svg"
+         alt="Extension Installs">
+  </a>
+  
 </p>
 
 ![usage gif](https://github.com/raulfdm/vscode-quick-spec/blob/master/media/extension-usage.gif?raw=true)
