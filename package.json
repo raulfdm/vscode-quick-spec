@@ -31,8 +31,9 @@
     "prebuild": "rimraf out",
     "build": "tsc -p ./ --skipLibCheck",
     "watch": "tsc -watch -p ./",
-    "predeploy": "vsce package",
-    "deploy": "vsce publish",
+    "prepublish": "vsce package",
+    "publish": "vsce publish",
+    "deploy": "npm run build && npm run publish",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "yarn run build && node ./node_modules/vscode/bin/test"
   },
