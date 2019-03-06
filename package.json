@@ -27,7 +27,7 @@
       }
     ],
     "configuration": {
-      "title": "Quick Spec configuration",
+      "title": "Quick Spec",
       "properties": {
         "quickSpec.defaultExtension": {
           "type": "string",
